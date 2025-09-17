@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background: #111;
+  color: #eee;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+video, canvas {
+  position: absolute;
+}
+
+/* Debug box */
+#debug {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(0,0,0,0.6);
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Overlay form */
+#userForm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(30,30,30,0.9);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#userForm input {
+  display: block;
+  width: 200px;
+  margin: 10px auto;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+#userForm button {
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  background: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.hidden { display: none; }
